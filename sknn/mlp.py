@@ -19,7 +19,8 @@ import theano
 import sklearn.base
 import sklearn.pipeline
 import sklearn.preprocessing
-import sklearn.cross_validation
+#import sklearn.cross_validation
+from sklearn.model_selection import train_test_split
 
 from .nn import NeuralNetwork, Layer, Convolution, Native, ansi
 from . import backend
